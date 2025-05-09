@@ -10,7 +10,7 @@ from sklearn.impute import SimpleImputer, KNNImputer
 from sklearn.inspection import permutation_importance
 
 # Read the data
-data = pd.read_csv('E:/ML/Intro to Deep Learning/Labs/Codes/Applied ML/Glass Identification/glass.csv')
+data = pd.read_csv('../Glass Identification/glass.csv')
 
 #Shuffle the data
 data = data.sample(frac=1, random_state=42).reset_index(drop=True)
